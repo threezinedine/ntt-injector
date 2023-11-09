@@ -58,7 +58,7 @@ class View:
 
 Then use the View as normal
 
-```
+``` python
 view = View()
 
 print(view._model)
