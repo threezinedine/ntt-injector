@@ -3,14 +3,14 @@ from setuptools import setup, find_packages
 
 setup(
     name='ntt-injector',
-    version='1.0.0',
+    version='1.0.1',
     packages=find_packages(),
     install_requires=[
     ],
     author='threezinedine',
     author_email='threezinedine@email.com',
     description='The small library for configuring the depedency injector design pattern',
-    long_description='A longer description if needed',
+    long_description='Go to source project to get more information (https://github.com/threezinedine/ntt-injector)',
     long_description_content_type='text/markdown',
     url='https://github.com/threezinedine/ntt-injector',
     classifiers=[
