@@ -1,5 +1,8 @@
 from setuptools import setup, find_packages
 
+def load_readme():
+    with open('README.md', 'r', encoding='utf-8') as file:
+        return file.read()
 
 setup(
     name='ntt-injector',
@@ -10,7 +13,7 @@ setup(
     author='threezinedine',
     author_email='threezinedine@email.com',
     description='The small library for configuring the depedency injector design pattern',
-    long_description='Go to source project to get more information (https://github.com/threezinedine/ntt-injector)',
+    long_description=load_readme(),
     long_description_content_type='text/markdown',
     url='https://github.com/threezinedine/ntt-injector',
     classifiers=[
